@@ -1,0 +1,160 @@
+body
+{
+    margin: 0%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+header{
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: darkturquoise;
+    color: black;
+    padding: 10px 0 20px;
+
+}
+h1{
+    align-items: center;
+}
+.logo img
+{
+    shape-image: circle;
+    border-radius: 50%;
+    height: 200px;
+    margin-right: 10px;
+}
+.logo{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.searchbar
+{
+    
+    margin: 30px;
+    margin-left: 400px;
+    padding: 50px;
+    
+}
+.searchbar input[type="search"]
+{
+    padding: 10px;
+    width: 60%;
+    box-shadow: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+{
+    padding: 10px;
+    width: 60%;
+    box-shadow: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.searchbar img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#searchbar
+{
+    padding: 10px;
+    width: 60%;
+    box-shadow: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+
+}
+
+.nav{
+    padding: 15px;
+    color: black;
+}
+nav li a{
+    justify-content: space-between;
+    margin-right: 100px;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+nav li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+nav li a:hover
+{
+  color: darkorange;
+}
+.container 
+{
+    display: flex;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    
+}
+p{
+    align-items: center;
+    padding: 10px;
+    font-size: larger;
+}
+.one img 
+{
+    height: 325px;
+    padding: 10px;
+}
+.one
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    
+}
+p.one
+{
+    align-items: center;
+    padding: 10px;
+    font-size: larger;
+}
+.two img 
+{
+    height: 325px;
+    padding: 10px;
+}
+.two
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200px;
+    font-size: large;
+    
+}
+li.logo
+{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 0%;
+}
+ul.logo
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
